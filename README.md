@@ -22,3 +22,6 @@ It was noted that approximately 158,000 requests lacked information regarding th
 Exploring the realm of service requests received through the 311 system, we discover a fascinating revelation: the most common types that stand out. By analyzing the frequency distribution of categories, we uncover the pulse of urban life. Below, you’ll find a bar chart depicting the top 10 categories of service requests.
 
 <iframe src="service_categories.html" width="800" height="600"></iframe>
+
+[![service_categories](https://nbviewer.jupyter.org/urls/path/to/service_categories.html)](https://nbviewer.org/github/LauraAnalyst/311-Service-Requests-Analysis/blob/main/service_categories.html)
+
