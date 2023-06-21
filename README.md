@@ -79,16 +79,6 @@ The time spent on handling the requests was calculated by taking the difference 
 
 ![Violin](Violin.png)
 
-count    2.679849e+06
-mean     4.363780e+02
-std      2.114092e+03
-min     -1.999722e+00
-25%      2.346611e+01
-50%      7.061778e+01
-75%      1.680000e+02
-max      4.670400e+04
-Name: time_diff_hours, dtype: float64
-
 The summary statistics reveal:
 
 - Count: The number of non-null values in the dataset is approximately 2,676,861.
@@ -105,8 +95,11 @@ These statistics provide an overview of the distribution of time taken to comple
 Clustering based on completion time of request were employed to gain insights into patterns and group service requests according to their time of completion.
 
 ![clusters](clusters.png)
+
 Cluster 0: Count=2627612, Average Time Diff=205.25445648162906 hours
+
 Cluster 2: Count=41153, Average Time Diff=9440.382644118896 hours
+
 Cluster 1: Count=8096, Average Time Diff=29678.166996047425 hours
 
 The Elbow method was used to find the optimal number of clusters for grouping service requests based on completion time. After analyzing the plot, it was determined that dividing the data into 3 clusters captured a significant amount of variation, making it a suitable choice for clustering.
@@ -121,11 +114,11 @@ There are 86 unique categories of service requests. Next, I examine if specific 
 
 ![Piechart_205_h](Piechart_205_h.png)
 
-These services (21 categories from 86) are distinct to Cluster 0, indicating that they are predominantly associated with this cluster and their average completion time is of around 205 hours or ≈ 8.5 days.
+The services above (21 categories from 86) are distinct to Cluster 0, indicating that they are predominantly associated with this cluster and their average completion time is of around 205 hours or ≈ 8.5 days.
 
 ![Piechart_13_mon](Piechart_13_mon.png)
 
-These services (21 categories from 86) are distinct to both Cluster 0 and Cluster 2, indicating that they are associated with these clusters and their average completion times is of around 205 hours (8.5 days) — 9,440 hours (13 months).
+The 21 categories such as ‘Finance’, ‘City Clerk’s’, ‘Road permits, and others are specifically associated with both Cluster 0 and Cluster 2. Therefore, on average, the completion times for these service requests range from approximately 205 hours (8.5 days) to 9,440 hours (13 months).
 
 Out of the 86 service request categories, the remaining 44 categories are present in each of the three clusters. These categories have completion times ranging from 205 hours (approximately 9 days) to 29,678 hours (approximately 3.3 years). This indicates a significant variation in the completion times for these categories.
 
