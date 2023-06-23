@@ -100,7 +100,7 @@ To create a more informative representation of the distribution of requests amon
     }
 </style>
 
-<iframe src="requests_map.html" width="800" height="1000" class="frameless-visualization"></iframe>
+<iframe src="requests_map.html" width="900" height="800" class="frameless-visualization"></iframe>
 
 
 Upon analyzing the map, it becomes evident that the communities located in the city center, namely the Downtown Commercial Core (DNC) and Beltline (BLN), exhibit the highest concentration of service requests. This observation is not surprising, considering the bustling nature of these central areas, with numerous businesses, offices, and residential complexes.
