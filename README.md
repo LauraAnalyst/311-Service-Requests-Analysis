@@ -186,6 +186,6 @@ City of Calgary. (2023). 311 Service Requests. Retrieved from https://data.calga
 
 City of Calgary. (2023). Community District Boundaries. Retrieved from Calgary Open Data Portal: https://data.calgary.ca/Base-Maps/Community-District-Boundaries/surr-xmvs
 
-## Data Analysis Contributors:
-<a href="https://www.linkedin.com/in/laura-assylgazhina/">Laura Assylgazhina</a>
 
+#### Data Analysis Contributors
+<a href="https://www.linkedin.com/in/laura-assylgazhina/">Laura Assylgazhina</a>
