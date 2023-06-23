@@ -40,7 +40,13 @@ These insights reveal the active engagement and conscientiousness of residents t
 
 Examining the departments responsible for handling service requests, three key insights come to light.
 
-<iframe src="departments.html" width="800" height="600"></iframe>
+<style>
+    .frameless-visualization {
+        border: none;
+    }
+</style>
+
+<iframe src="departments.html" width="800" height="600" class="frameless-visualization"></iframe>
 
 The Calgary Community Standards department takes the lead, indicating the high priority given to maintaining community standards and regulations. Calgary Transit follows closely, underscoring the vital role of efficient and accessible public transportation in urban life. The Utilities & Environmental Protection department’s presence highlights the city’s commitment to sustainable practices and safeguarding the environment. These departments, among others, play a pivotal role in addressing resident concerns and actively shaping a vibrant and livable city.
 
@@ -48,13 +54,25 @@ The Calgary Community Standards department takes the lead, indicating the high p
 
 Delving into the vast realm of service requests, it’s intriguing to explore how the volume of these requests fluctuates over time. By examining the data and observing any discernible patterns, we can gain valuable insights into the dynamics of service demand.
 
-<iframe src="requests_over_time.html" width="800" height="600"></iframe>
+<style>
+    .frameless-visualization {
+        border: none;
+    }
+</style>
+
+<iframe src="requests_over_time.html" width="800" height="600" class="frameless-visualization"></iframe>
 
 By analyzing the area map representation of service requests, an interesting pattern emerges. We observe a zigzag pattern, indicating that there is a yearly peak of requests during the middle of the year, which coincides with the summer months. Conversely, at the beginning and end of the year, the number of requests tends to decrease. This observation suggests a seasonality in service requests, with higher demand during the warmer months.
 
 Let's take a closer look at the number of service requests in June and December of 2022.
 
-<iframe src="june_december_requests.html" width="800" height="600"></iframe>
+<style>
+    .frameless-visualization {
+        border: none;
+    }
+</style>
+
+<iframe src="june_december_requests.html" width="800" height="600" class="frameless-visualization"></iframe>
 
 By examining the bar plot, it is evident that the number of requests is significantly higher in June compared to December. In particular, the Finance category shows a substantial increase in June, with subcategories such as "TIPP Agreement Request," "Property Tax Account Enquiry," and "Property Tax Document Request" experiencing a two to three-fold rise in requests.
 
@@ -62,7 +80,13 @@ Similarly, the Parks category also exhibits a notable surge in June, particularl
 
 The heatmap below showcasing service requests by month and day of the week provides valuable insights into the workload distribution throughout the week.
 
-<iframe src="month_day_requests.html" width="800" height="600"></iframe>
+<style>
+    .frameless-visualization {
+        border: none;
+    }
+</style>
+
+<iframe src="month_day_requests.html" width="800" height="600" class="frameless-visualization"></iframe>
 
 It vividly illustrates that during the weekends, the number of requests decreases, indicating a lighter workload. Conversely, the work weeks, particularly in June, appear to be busier, with a higher volume of requests. This visual matrix serves as a helpful tool for understanding potential patterns in request completion delays and identifying periods when additional staff may be required to efficiently handle the workload.
 
@@ -70,7 +94,14 @@ It vividly illustrates that during the weekends, the number of requests decrease
 
 To create a more informative representation of the distribution of requests among different communities, I decided to incorporate a geospatial dataset containing community boundaries. By merging this dataset with my request data, I was able to generate a map that highlights the spatial distribution and intensity of requests across various communities. The color of each area represents the intensity of requests, providing a visual representation of the varying levels of activity across the communities. The additional information can be found in the tooltip.
 
-<iframe src="requests_map.html" width="800" height="600"></iframe>
+<style>
+    .frameless-visualization {
+        border: none;
+    }
+</style>
+
+<iframe src="requests_map.html" width="800" height="1000" class="frameless-visualization"></iframe>
+
 
 Upon analyzing the map, it becomes evident that the communities located in the city center, namely the Downtown Commercial Core (DNC) and Beltline (BLN), exhibit the highest concentration of service requests. This observation is not surprising, considering the bustling nature of these central areas, with numerous businesses, offices, and residential complexes.
 
