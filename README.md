@@ -1,4 +1,5 @@
 # Exploring Calgary’s 311 Service Requests: Unveiling Urban Insights
+
 As a data analyst and newcomer to the vibrant city of Calgary, understanding and accessing the various services and information provided by the City is crucial. The 311 Service Requests system, offered by The City of Calgary’s Citizen Services division, serves as a comprehensive platform for residents, business owners, and visitors to connect with the city government and access non-emergency services. Through this system, individuals can submit requests, seek information, and track the progress of their inquiries or service needs. This data-driven exploration of Calgary’s 311 Service Requests aims to empower newcomers like myself and contribute to the continuous enhancement of city services.
 
 ![picture](picture.jpg)
