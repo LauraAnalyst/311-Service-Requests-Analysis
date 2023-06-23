@@ -1,4 +1,4 @@
-# 311-Service-Requests-Analysis
+# Exploring Calgary’s 311 Service Requests: Unveiling Urban Insights
 As a data analyst and newcomer to the vibrant city of Calgary, understanding and accessing the various services and information provided by the City is crucial. The 311 Service Requests system, offered by The City of Calgary’s Citizen Services division, serves as a comprehensive platform for residents, business owners, and visitors to connect with the city government and access non-emergency services. Through this system, individuals can submit requests, seek information, and track the progress of their inquiries or service needs. This data-driven exploration of Calgary’s 311 Service Requests aims to empower newcomers like myself and contribute to the continuous enhancement of city services.
 
 ![picture](picture.jpg)
@@ -23,7 +23,13 @@ It was noted that approximately 158,000 requests lacked information regarding th
 
 Exploring the realm of service requests received through the 311 system, we discover a fascinating revelation: the most common types that stand out. By analyzing the frequency distribution of categories, we uncover the pulse of urban life. Below, you’ll find a bar chart depicting the top 10 categories of service requests.
 
-<iframe src="service_categories.html" width="800" height="600"></iframe>
+<style>
+    .frameless-visualization {
+        border: none;
+    }
+</style>
+
+<iframe src="service_categories.html" width="800" height="600" class="frameless-visualization"></iframe>
 
 Road-related requests represent a significant portion, emphasizing the importance of maintaining a well-functioning transportation infrastructure. Building inspections, encompassing compliance and permits, highlight the community’s commitment to safety and construction standards. Requests for waste and recycling services reflect a dedication to environmental sustainability. Finance-related inquiries indicate an engaged community managing their financial obligations. Lastly, park-related requests demonstrate a desire to preserve and enhance outdoor spaces.
 
@@ -147,3 +153,7 @@ Implementing time frames can also benefit city departments by providing them wit
 City of Calgary. (2023). 311 Service Requests. Retrieved from https://data.calgary.ca/Services-and-Amenities/311-Service-Requests/iahh-g8bj
 
 City of Calgary. (2023). Community District Boundaries. Retrieved from Calgary Open Data Portal: https://data.calgary.ca/Base-Maps/Community-District-Boundaries/surr-xmvs
+
+### Data Analysis Contributors
+- <a href="https://www.linkedin.com/in/laura-assylgazhina/">Laura Assylgazhina</a>
+
