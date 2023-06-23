@@ -1,5 +1,7 @@
 # 311-Service-Requests-Analysis
 
+<strong>Data Analysis Contributor:</strong> <a href="https://www.linkedin.com/in/laura-assylgazhina/">Laura Assylgazhina</a>
+
 As a data analyst and newcomer to the vibrant city of Calgary, understanding and accessing the various services and information provided by the City is crucial. The 311 Service Requests system, offered by The City of Calgary’s Citizen Services division, serves as a comprehensive platform for residents, business owners, and visitors to connect with the city government and access non-emergency services. Through this system, individuals can submit requests, seek information, and track the progress of their inquiries or service needs. This data-driven exploration of Calgary’s 311 Service Requests aims to empower newcomers like myself and contribute to the continuous enhancement of city services.
 
 ![picture](picture.jpg)
@@ -185,7 +187,3 @@ Implementing time frames can also benefit city departments by providing them wit
 City of Calgary. (2023). 311 Service Requests. Retrieved from https://data.calgary.ca/Services-and-Amenities/311-Service-Requests/iahh-g8bj
 
 City of Calgary. (2023). Community District Boundaries. Retrieved from Calgary Open Data Portal: https://data.calgary.ca/Base-Maps/Community-District-Boundaries/surr-xmvs
-
-
-#### Data Analysis Contributors
-<a href="https://www.linkedin.com/in/laura-assylgazhina/">Laura Assylgazhina</a>
